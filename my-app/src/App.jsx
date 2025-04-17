@@ -147,7 +147,6 @@ export default function App() {
             const newMisses = m + 1;
             if (newMisses >= 6) {
               setGameOver(true);
-              setScore(0);
             }
             return newMisses;
           });
